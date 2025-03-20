@@ -1,6 +1,13 @@
 # California Intertidal Species Patterns
 *Author: Justin Hamerly-Spain*
 
+<div style="display: flex; justify-content: center;">
+  <img src="images/1.JPEG" width="25%" style="margin: 2px; height: auto;">
+  <img src="images/2.JPEG" width="25%" style="margin: 2px; height: auto;">
+  <img src="images/3.JPEG" width="25%" style="margin: 2px; height: auto;">
+  <img src="images/4.JPEG" width="25%" style="margin: 2px; height: auto;">
+</div>
+
 ### Table of Contents
 
 1. [Description](#description)
