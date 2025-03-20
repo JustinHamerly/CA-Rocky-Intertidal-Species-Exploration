@@ -1,4 +1,4 @@
-# California Intertidal Species Patterns
+# California Intertidal Species Exploration
 *Author: Justin Hamerly-Spain*
 
 <div style="display: flex; justify-content: center;">
