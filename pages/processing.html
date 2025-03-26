@@ -7518,7 +7518,6 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h1 id="File-Processing">File Processing<a class="anchor-link" href="#File-Processing">¶</a></h1><h2 id="Table-of-Contents">Table of Contents<a class="anchor-link" href="#Table-of-Contents">¶</a></h2><ul>
-<li><a href="README.md">HOME</a></li>
 <li><a href="#species-classification-data-cleaning">Species Classification Data Cleaning</a></li>
 <li><a href="#intertidal-site-data-cleaning">Intertidal Site Data Cleaning</a></li>
 <li><a href="#merging-species-counts">Species Counts Cleaning and Merging</a></li>
@@ -7568,7 +7567,7 @@ a.anchor-link {
 <div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">df_species_class</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"scmpaintertidalclasstable20150220.csv"</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">df_species_class</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"./data/scmpaintertidalclasstable20150220.csv"</span><span class="p">)</span>
 <span class="n">df_species_class</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -8049,7 +8048,7 @@ memory usage: 19.2+ KB
 <div class="jp-InputPrompt jp-InputArea-prompt">In [11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">df_site_table</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"scmpaintertidalsitetable20150220.csv"</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">df_site_table</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"./data/scmpaintertidalsitetable20150220.csv"</span><span class="p">)</span>
 <span class="n">df_site_table</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -8366,7 +8365,7 @@ memory usage: 5.5+ KB
 <div class="jp-InputPrompt jp-InputArea-prompt">In [15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">counts_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'sc_mpa_marine_species_counts_2015_0505.csv'</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">counts_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'./data/sc_mpa_marine_species_counts_2015_0505.csv'</span><span class="p">)</span>
 <span class="n">counts_df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -8403,8 +8402,8 @@ memory usage: 7.9+ MB
 <div class="jp-OutputArea-child">
 <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
-<pre>C:\Users\suvim\AppData\Local\Temp\ipykernel_54280\556990352.py:1: DtypeWarning: Columns (7) have mixed types. Specify dtype option on import or set low_memory=False.
-  counts_df = pd.read_csv('sc_mpa_marine_species_counts_2015_0505.csv')
+<pre>C:\Users\suvim\AppData\Local\Temp\ipykernel_16812\4063412894.py:1: DtypeWarning: Columns (7) have mixed types. Specify dtype option on import or set low_memory=False.
+  counts_df = pd.read_csv('./data/sc_mpa_marine_species_counts_2015_0505.csv')
 </pre>
 </div>
 </div>
@@ -9027,7 +9026,7 @@ memory usage: 4.3+ MB
 <div class="jp-InputPrompt jp-InputArea-prompt">In [26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">counts_species_site_merged_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">'species_counts_cleaned_merged.csv'</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">counts_species_site_merged_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">'./data/species_counts_cleaned_merged.csv'</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -9060,7 +9059,7 @@ memory usage: 4.3+ MB
 <div class="jp-InputPrompt jp-InputArea-prompt">In [27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">sizes_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"sc_mpa_marine_species_sizes_2015_0220.csv"</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">sizes_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"./data/sc_mpa_marine_species_sizes_2015_0220.csv"</span><span class="p">)</span>
 <span class="n">sizes_df</span><span class="o">.</span><span class="n">info</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -9554,7 +9553,7 @@ memory usage: 461.6+ KB
 <div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="n">sizes_site_names_merged_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">'species_sizes_cleaned_merged.csv'</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">sizes_site_names_merged_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">'./data/species_sizes_cleaned_merged.csv'</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>

@@ -45,12 +45,12 @@ All data comes from the state of California's open data set regarding rocky inte
 
 ## Processing
 
-- [Data Processing](./processing.html)
+- [Data Processing](./pages/processing.html)
 - [Data Processing Notebook](./processing.ipynb)
 
 ## Analysis
 
-- [Data Analysis](./analysis.html)
+- [Data Analysis](./pages/analysis.html)
 - [Data Analysis Notebook](./analysis.ipynb)
 
 ## Conclusion
