@@ -45,12 +45,30 @@ All data comes from the state of California's open data set regarding rocky inte
 
 ## Processing
 
-- [Data Processing HTML](./processing.html)
+- [Data Processing](./processing.html)
 - [Data Processing Notebook](./processing.ipynb)
 
 ## Analysis
 
+- [Data Analysis](./analysis.html)
 - [Data Analysis Notebook](./analysis.ipynb)
 
 ## Conclusion
 
+### Results
+
+By aggregating data into average sizes and overall populations for each season from 2001 to 2014, correlations between the size and population can be observed.
+
+The overall correlation result for all seasons of .172 indicates a fairly weak positive correlation between the species counts and species sizes when looking at all data over time. 
+
+When separating the data into Fall and Spring Seasons the correlations were slightly stronger.
+Fall has a correlation of .218
+Spring has a correlation of .255
+
+Further study would be required to find any cause of this correlation.
+
+### Future Study
+
+- Looking at differences between intertidal sites might provide insights to specific trends for those locations.
+- Analysing other species and their changes in sizes and populations would give a more fleshed out look into the rocky intertidal biome of California
+- Looking at changes outside of Animal life - such as bacteria and plant life would help understand the overall story of the changing intertidal zone
